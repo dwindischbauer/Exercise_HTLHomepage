@@ -1,0 +1,143 @@
+/** CSS-Stylesheet
+*	author: David Windischbauer
+**/
+
+/************* general setting *************/
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Quicksand', sans-serif;
+    color: #fff;
+    background-color: #636366;
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+h1, h2 {
+    text-transform: uppercase;
+    text-align: center;
+	font-weight: 400%;
+}
+h1, h2, p {
+	margin: 0%;
+}
+h1 {
+	font-weight: 500%;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	display: block;
+}
+/************* colors *************/
+.it{ 	
+background-color: rgba(0,80,157,0.7);
+}
+.it:hover{
+ background-color: rgba(0,80,157,1);
+}
+#informatik #wrapper{
+background-color: rgba(0,80,157,0.3);
+}
+#informatik .active{
+background-color: rgba(0,80,157,0.7);
+}
+.medt{
+ background-color: rgba(105,180,216,0.7);
+}
+.medt:hover{
+background-color: rgba(105,180,216,1);
+}
+#medientechnik #wrapper{
+background-color: rgba(105,180,216,0.3);
+}
+#medientechnik .active{
+background-color: rgba(105,180,216,0.7);
+}
+.et{
+	background-color: rgba(186,7,36,0.7);
+}
+.et:hover{
+background-color: rgba(186,7,36,1);
+}
+#elektronik #wrapper{
+background-color: rgba(186,7,36,0.3);
+}
+#elektronik .active{
+background-color: rgba(186,7,36,0.7);
+}
+.medz{
+background-color: rgba(237,135,0,0.7);
+}
+.medz:hover{
+background-color: rgba(237,135,0,15);
+}
+#medizintechnik #wrapper{
+background-color: rgba(237,135,0,0.3);
+}
+#medizintechnik .active{
+background-color: rgba(237,135,0,0.7);
+}
+
+
+
+/************* wrapper *************/
+#wrapper {
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+.video {
+	width: 66vw;
+	height: 32vw;
+	margin-left: 16vw;
+	margin-top: 5%;
+	margin-bottom: 7%;
+}
+
+/************* main *************/
+#main{
+	margin-bottom: 2%;
+}
+
+
+/************* nav home *************/
+nav {
+	display: flex;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+/************* footer *************/
+#footer{
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+
+.picture {
+	width: 100%;
+}
+/************* nav subsites *************/
+#nav {
+	display: flex;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-top: 1%;
+	margin-bottom: 3%;
+}
+
+/************* layout *************/
+.column-4 {
+	width: 25%;
+}
+#main > img{
+	width: 33vw;
+	height: 16vw;
+	margin-left: 33vw;
+}
+section{
+	
+	margin: 2%;
+}
